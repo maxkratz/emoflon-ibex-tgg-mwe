@@ -1,0 +1,20 @@
+#import "platform:/resource/MetamodelA/model/MetamodelA.ecore"
+#import "platform:/resource/MetamodelB/model/MetamodelB.ecore"
+
+#schema TGGProject
+	
+#source {
+	MetamodelA
+}
+
+#target { 
+	MetamodelB
+} 
+
+#correspondence {
+	
+}
+
+#attributeConditions {
+	
+}

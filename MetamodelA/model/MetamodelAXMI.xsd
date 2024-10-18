@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:MetamodelA="platform:/resource/MetamodelA/model/MetamodelA.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="platform:/resource/MetamodelA/model/MetamodelA.ecore">
+  <xsd:annotation>
+    <xsd:documentation>TODO: Add documentation for MetamodelA. Hint: You may copy this element in the Ecore editor to add documentation to EClasses, EOperations, ...</xsd:documentation>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.omg.org/XMI" schemaLocation="platform:/plugin/org.eclipse.emf.ecore/model/XMI.xsd"/>
+  <xsd:complexType name="Root">
+    <xsd:choice maxOccurs="unbounded" minOccurs="0">
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+  </xsd:complexType>
+  <xsd:element name="Root" type="MetamodelA:Root"/>
+</xsd:schema>
